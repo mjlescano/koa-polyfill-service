@@ -1,0 +1,32 @@
+{
+  "name": "koa-polyfill-service",
+  "version": "0.1.0",
+  "description": "Koa middleware for polyfill-service",
+  "main": "index.js",
+  "dependencies": {
+    "ms": "^0.7.1",
+    "polyfill-service": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjlescano/koa-polyfill-service.git"
+  },
+  "author": {
+    "name": "Matías Lescano",
+    "url": "http://github.com/mjlescano"
+  },
+  "keywords": [
+    "koa",
+    "polyfills",
+    "polyfill",
+    "polyfill-service"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjlescano/koa-polyfill-service/issues"
+  },
+  "homepage": "https://github.com/mjlescano/koa-polyfill-service"
+}
