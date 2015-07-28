@@ -21,7 +21,7 @@ module.exports = function (options) {
     this.type = 'js'
     this.body = polyfillio.getPolyfillString({
       uaString: options.uaString || this.headers['user-agent'],
-      minify: options.minify || true,
+      minify: 'undefined' === typeof options.minify ? true : options.minify,
       features: options.features || { default: {} },
       libVersion: options.libVersion,
       unknown: options.unknown
