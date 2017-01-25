@@ -1,6 +1,8 @@
 
 # Koa Polyfill service
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mjlescano/koa-polyfill-service.svg)](https://greenkeeper.io/)
+
 [Polyfill service](https://github.com/Financial-Times/polyfill-service) middleware for [koa](https://github.com/koajs/koa).
 
 ## Usage
