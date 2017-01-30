@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:qs:20140806-1':
+    - polyfill-service > forever > winston > request > qs:
+        patched: '2017-01-30T18:26:27.581Z'
+  'npm:request:20160119':
+    - polyfill-service > forever > winston > request:
+        patched: '2017-01-30T18:26:27.581Z'
