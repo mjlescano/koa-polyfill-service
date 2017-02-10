@@ -9,3 +9,6 @@ patch:
   'npm:request:20160119':
     - polyfill-service > forever > winston > request:
         patched: '2017-01-30T18:26:27.581Z'
+  'npm:marked:20170112':
+    - polyfill-service > marked:
+        patched: '2017-02-10T15:16:47.431Z'
