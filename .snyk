@@ -12,3 +12,8 @@ patch:
   'npm:marked:20170112':
     - polyfill-service > marked:
         patched: '2017-02-10T15:16:47.431Z'
+  'npm:ms:20170412':
+    - polyfill-service > mocha > debug > ms:
+        patched: '2017-05-24T05:10:08.892Z'
+    - polyfill-service > shrink-ray > debug > ms:
+        patched: '2017-05-24T05:10:08.892Z'
