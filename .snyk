@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.8.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -22,3 +22,6 @@ patch:
         patched: '2017-09-27T05:10:09.651Z'
     - polyfill-service > shrink-ray > debug:
         patched: '2017-09-27T05:10:09.651Z'
+  'npm:marked:20170907':
+    - polyfill-service > marked:
+        patched: '2017-11-01T05:10:12.590Z'
